@@ -12,8 +12,8 @@ def load_ast_tree(filename):
             return ast.parse("()")
 
 # import timeit
-@pytest.mark.test_task1_module5
-def test_task1_module5():
+@pytest.mark.test_task7_module3
+def test_task7_module5():
     assert 'timeit' in dir(ExpenseCategories), 'Did you import `timeit`?'
 
 # Call timeit
